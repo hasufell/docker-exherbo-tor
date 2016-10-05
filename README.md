@@ -24,7 +24,6 @@ First, create the container, e.g.:
 
 ```sh
 docker run -d \
-	--rm \
 	--name tor \
 	-v /etc/torrc:/etc/torrc \
 	hasufell/exherbo-tor
